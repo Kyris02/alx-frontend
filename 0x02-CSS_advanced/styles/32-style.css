@@ -668,16 +668,13 @@
     z-index: -1;
   }
 
-  .card-work:hover {
-    transform: scale(1.2);
-  }
-
-  .card-outer:hover {
+  .card-work:hover .card-outer {
     transform: scale(0.95);
   }
 
   .card-work:hover .card-image {
     transition: var(–transition-duration) var(--transition-cubic-bezier);
+    transform: scale(1.2);
   }
 
   :root {
