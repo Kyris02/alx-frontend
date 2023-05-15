@@ -555,7 +555,7 @@
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition-property: var(--transition-cubic-bezier);
+    transition-property: color, background-color;
   }
 
   .card-testimonial {
@@ -673,7 +673,7 @@
   }
 
   .card-work:hover .card-image {
-    transition: var(–transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
     transform: scale(1.2);
   }
 
